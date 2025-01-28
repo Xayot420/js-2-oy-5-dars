@@ -1,0 +1,33 @@
+.item{
+    width: 100%;
+    background-color: rgb(93, 140, 228);
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.delete{
+    width: 100px;
+    background-color: red;
+    border-radius: 30px;
+    color: white;
+    font-weight: 900;
+}
+.bot{
+    display: flex;
+    gap: 20px;
+}
+.edit{
+    width: 100px;
+    background-color: green;
+    border-radius: 30px;
+    color: white;
+    font-weight: 900;
+} 
